@@ -7,10 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (menuItem && menuItem.querySelector('.menu_sub')) {
                 event.preventDefault(); 
                 menuItem.querySelector('.menu_sub').classList.toggle('menu_active');
-            } else {
-                event.preventDefault();
             }
         });
     });
 });
-
